@@ -93,7 +93,7 @@ export function HomePage() {
     return (
         <div className="w-full min-h-screen bg-[url('/fundo.jpg')] bg-cover bg-center bg-no-repeat flex items-start justify-center">
             <main className="lg:w-3/5 flex my-8 flex-col justify-center items-center backdrop-blur-sm p-8 space-y-4 rounded-xl border border-gray-700">
-                <div className="relative border p-2 inline-flex items-center justify-center">
+                <div className="relative p-2 inline-flex items-center justify-center">
                     <div className="rounded-full h-28 w-28 border-4 border-transparent outline-3 outline-sky-600 overflow-hidden shadow-lg">
                         <img
                             className="object-cover w-full h-full"
@@ -160,7 +160,7 @@ export function HomePage() {
                             <h3 className="text-lm text-gray-400">Entre em contato ou acompanhe as minhas redes sociais</h3>
                         </div>
 
-                        <div className="grid grid-cols-1 gap-4 justify-center items-center w-full lg:w-2/3 border mt-10">
+                        <div className="grid grid-cols-1 gap-4 justify-center items-center w-full lg:w-2/3 mt-10">
                             <div className="flex justify-between items-center gap-4 rounded-lg bg-gray-700/50 p-6">
                                 <div className="flex items-center justify-center gap-4">
                                     <img src="/linkedin.png" alt="Logo Linkedin" />
